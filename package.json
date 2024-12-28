@@ -1,7 +1,8 @@
 {
-  "name": "torrent-cli",
-  "version": "1.0.0",
+  "name": "magnet-cli-gntlg",
+  "version": "1.0.1",
   "main": "index.js",
+  "description": "Stream torrents directly to VLC via webtorrent-cli",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -9,15 +10,17 @@
     "magnet": "./src/index.js"
   },
   "type": "module",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": [
+    "torrent",
+    "cli",
+    "webtorrent",
+    "vlc"
+  ],
+  "author": "@gntlg",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^5.4.1",
-    "express": "^4.21.2",
     "inquirer": "^12.3.0",
-    "open": "^10.1.0",
     "ora": "^8.1.1",
     "torrent-search-api": "^2.1.4",
     "webtorrent": "^1.9.7"
